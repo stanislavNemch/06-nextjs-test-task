@@ -1,0 +1,22 @@
+.noteItem {
+    padding: 10px;
+    list-style: none;
+    border-radius: 4px;
+    background-color: #949191;
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+    margin-left: 32px;
+    max-width: 400px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.noteItem:hover {
+    background-color: #b3b0b0;
+    cursor: pointer;
+}
+
+.noteItem p {
+    margin: 0;
+    font-size: 16px;
+}
