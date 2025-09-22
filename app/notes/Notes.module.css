@@ -1,0 +1,24 @@
+.notes {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+}
+.noteItem {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+.noteItem:last-child {
+    border-bottom: none;
+}
+.noteItem h1 {
+    margin: 0 0 4px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.noteItem p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
